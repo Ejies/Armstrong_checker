@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+    @import url('https://fonts.googleapis.com/css?family=Concert+One');
+body{
+  
+}
+.container{
+  margin:40px;
+  margin-left:40%;
+}
+.header{
+ font-family: 'Monoton', cursive;
+ font-size: 50px;
+ text-shadow: 2px 2px #00bfff;
+}
+.armstrong-form, .armstrong-result{
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+input[type=text] {
+ width: 40%;
+ border-radius: 4px;
+ height: 30px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+.row{
+  margin: 20px;
+}
+button{
+  background-color: #00bfff; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.disabled { background-color: #eee9e9; color: #cdc9c9; border: 0; }
